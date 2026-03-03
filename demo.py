@@ -9,7 +9,7 @@ st.title(' 我的第一個 Streamlit App')
 st.write('恭喜你！你已經成功架設了你的第一個網頁應用程式。')
 
 # 3. 互動元件：輸入名字
-user_name = st.text_input("請輸入你的名字", "阿姨")
+user_name = st.text_input("請輸入你的名字", "訪客")
 if user_name:
     st.success(f"哈囉, {user_name}！歡迎來到 Streamlit 的世界。")
 
